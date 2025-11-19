@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>localStorage Treino</title>
+    <title>Lista de tarefas com LocalStorage</title>
 </head>
 <body>
-    <h1>Treinando localStorage</h1>
-    <p>Digite seu nome abaixo:</p>
+    <h1>Minha lista de tarefas</h1>
+    <input type="text" id="nova-tarefa" placeholder="Adicionar nova tarefa">
+    <button id="adicionar">Adicionar</button>
+    <ul id="lista-tarefas">
 
-    <div class="container">
-        <input type="text" name="" id="nome" placeholder="Seu Nome">
-    </div>
-    <button onclick="salvarnome()">Salvar</button>
-    <button onclick="mostrarnome()">Mostrar</button>
-    <button onclick="apagarnome()">Apagar</button>
-
-    <h2 id="resultado"></h2>
+    </ul>
     <script src="scriptTreino.js"></script>
 </body>
 </html>
